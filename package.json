@@ -1,0 +1,29 @@
+{
+  "name": "fcc-file-metadata",
+  "version": "1.0.0",
+  "description": "Take's a user uploaded file and returns its size.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "start:dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kraxx/fcc-file-metadata.git"
+  },
+  "author": "Justin Chow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kraxx/fcc-file-metadata/issues"
+  },
+  "homepage": "https://github.com/kraxx/fcc-file-metadata#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
